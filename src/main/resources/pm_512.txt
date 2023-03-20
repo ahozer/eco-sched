@@ -1,0 +1,7 @@
+m1;PS-GP-1;v1;48
+m2;PS-GP-2;v2;96
+m3;PS-CO-1;v3;96
+m4;PS-CO-2;v4;96
+m5;PS-MO-1;v5;48
+m6;PS-MO-2;v6;64
+m7;PS-SO-1;v7;64

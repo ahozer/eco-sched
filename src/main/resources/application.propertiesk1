@@ -1,0 +1,15 @@
+# configure the MongoDB client for a replica set of two nodes
+quarkus.mongodb.connection-string=mongodb://vmsdb:RzpE3dWCOn7HHAPclug3WBYIG9z50hOMt3xIFYcYdPLu6fnLIVewwJ4me53MPDgm7e65sLbLFnznxY22FcQPRw==@vmsdb.mongo.cosmos.azure.com:10255/?ssl=true&retrywrites=false&replicaSet=globaldb&maxIdleTimeMS=120000&appName=@vmsdb@
+# mandatory if you don't specify the name of the database using @MongoEntity
+quarkus.mongodb.database=vms
+vms.seed=27
+vms.generator.avmc=1024
+vms.generator.period=5,10,15,20
+vms.generator.bid.density=0.50,0.60,0.70,0.80,0.90,1.00,1.50,2.00,2.50,3.00,3.50,4.00
+vms.generator.subbid.count=1.00,1.50,2.00
+vms.generator.vm.alternative=1.00,1.50,2.00
+vms.generator.vm.quantity=1.00,1.50,2.00
+vms.generator.vm.size=8,16,24,32,48
+vms.generator.deadline.probability=0.1
+vms.solver.threadcount=13
+vms.solver.gurobi.timelimit=3600
