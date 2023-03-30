@@ -42,11 +42,10 @@ Parameters for the test generator are in the application.properties file.
 
 **Period**
 
+- 5
 - 10
 - 15
 - 20
-- 25
-- 30
 
 **Bid Density:**
 
